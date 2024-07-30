@@ -1,11 +1,11 @@
 # vue_element_admin
 
-## setuo
-```ssh
+##setup
+```bash
 npm install
 
-```ssh
+```bash
 npm run dev
 
-```ssh
+```bash
 npm run build
