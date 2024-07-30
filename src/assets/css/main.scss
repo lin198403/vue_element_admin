@@ -1,0 +1,28 @@
+@use './base.scss' as *;
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../iconfonts/iconfont.woff2?t=1718689553809') format('woff2'),
+       url('../iconfonts/iconfont.woff?t=1718689553809') format('woff'),
+       url('../iconfonts/iconfont.ttf?t=1718689553809') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont";
+  font-size: 22px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--el-text-color-primary);
+}
+
+// fade
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
